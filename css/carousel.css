@@ -1,0 +1,62 @@
+#container {
+	margin-right:auto;
+	margin-left:auto
+} 
+
+
+.showbox {
+	margin:0 auto;
+	position: relative;
+	height: 750px;
+	line-height: 750px;
+	width: 1500px;
+	overflow: hidden;
+	border: 10 solid #eee;
+	background-color: #eee;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.imagebox {
+	position: relative;
+	height: 720px;
+	width: 1500px;
+	top: 0;
+	left: 5px;
+	overflow: hidden;
+}
+
+.imagebox img {
+	display: block;
+	width: 1500px;
+	height: 720px;
+	float: left;
+}
+
+.icobox {
+	position: absolute;
+	border: none;
+	width: 200px;
+	height: 12px;
+	left: 650px;
+	bottom: 10px;
+	text-align: center;
+	line-height: 40px;
+	overflow: hidden;
+}
+
+.icobox span {
+	background: url("../image/ico.png") 0px 0px no-repeat;
+	width: 45px;
+	height: 12px;
+	cursor: pointer;
+	float: left;
+	margin-left: 5px;
+}
+
+.icobox span .active {
+	background: url("../image/ico.png") 0px -12px no-repeat;
+	cursor: default;
+	background-color: blue;
+}
